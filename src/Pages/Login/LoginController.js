@@ -22,7 +22,7 @@ class LoginController extends React.Component {
     }
     render() {
         return (
-            <LoginView Model={this.loginModel} /> //Chamando o View
+            <LoginView /> //Chamando o View
         )
     }
 }
