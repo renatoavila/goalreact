@@ -1,19 +1,10 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React from 'react'
+import ReactDOM from 'react-dom'
+
+import App from './containers/App'
 
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './index.css'; 
-import LoginController from './Pages/Login/LoginController';
-import reportWebVitals from './reportWebVitals';
+import 'normalize.css'
+import './index.css'
 
-ReactDOM.render(
-  <React.StrictMode>
-    <LoginController />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+ReactDOM.render(<App />, document.getElementById('root'))
