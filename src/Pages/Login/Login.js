@@ -11,9 +11,9 @@ const Login = () => {
     const handleSubmit = values => {
         axios.post('https://goalapifiap.herokuapp.com/api/login/', values)
             .then(resp => {
-                const { data } = resp
-                if (data) {
-                    localStorage.setItem('app-token', data)
+                if (resp.data) {
+                    console.log(resp.data); 
+                    localStorage.setItem('usuario', JSON.stringify(resp.data) )
                     history.push('/')
                 }
             })
