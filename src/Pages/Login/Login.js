@@ -1,10 +1,8 @@
 import React from 'react'
 
 import axios from 'axios'
-import {  ErrorMessage,Formik, Form, Field } from 'formik'
-import * as yup from 'yup'
+import {  Formik, Form, Field } from 'formik'
 
-import Api from "../../services/Api";
 
 import { history } from '../../history'
 import './Login.css'
