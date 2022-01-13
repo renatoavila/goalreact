@@ -4236,7 +4236,7 @@
     "combined-stream" "^1.0.6"
     "mime-types" "^2.1.12"
 
-"formik@^1.5.7":
+"formik@^1.5.8":
   "integrity" "sha512-fNvPe+ddbh+7xiByT25vuso2p2hseG/Yvuj211fV1DbCjljUEG9OpgRpcb7g7O3kxHX/q31cbZDzMxJXPWSNwA=="
   "resolved" "https://registry.npmjs.org/formik/-/formik-1.5.8.tgz"
   "version" "1.5.8"
