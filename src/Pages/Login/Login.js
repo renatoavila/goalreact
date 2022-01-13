@@ -16,7 +16,7 @@ const Login = () => {
                     localStorage.setItem('usuario', JSON.stringify(resp.data) )
                     history.push('/')
                 }
-            })
+            })  
     }
 
     return (
